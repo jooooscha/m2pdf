@@ -1,0 +1,46 @@
+html, body {
+    font-size:11px;
+}
+
+hr {
+    page-break-after: always;
+    visibility: hidden;
+}
+
+img {
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    margin: 10px 0;
+    page-break-inside: avoid;
+}
+
+th {
+    border: 1px solid gray;
+}
+
+th {
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+blockquote {
+    padding: 0 10px;
+    border: 1px solid #cecece;
+    border-left: 3px solid #868686;
+    background-color: #cecece;
+}
+
+pre {
+    padding: 10px;
+    border: 1px solid #cecece;
+    background-color: #cecece;
+}
